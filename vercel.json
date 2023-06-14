@@ -1,7 +1,16 @@
-
 {
+    "version": 2,
+    "builds": [
+        {
+            "src": "./index.py",
+            "use": "@vercel/python"
+        }
+    ],
     "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "status": 404, "dest": "/other-404.html" }
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
     ]
-  }
+}
+
