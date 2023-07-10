@@ -1,10 +1,10 @@
 
 # Installing flask 
-$ cd /path/to/project-directory      # Choose your project directory
-$ virtualenv -p python3 venv  # For Python 3, or
-$ virtualenv venv             # For Python 2
+-cd /path/to/project-directory      # Choose your project directory
+-virtualenv -p python3 venv  # For Python 3, or
 
-$ source venv/bin/activate    # Activate the virual environment
+
+-source venv/bin/activate    # Activate the virual environment
 (venv)$ pip install flask     # Install flask using 'pip' which is symlinked to pip2 or pip3 (no sudo needed)
 ......
 Successfully installed Jinja2-2.9.5 MarkupSafe-0.23 Werkzeug-0.11.15 click-6.7 flask-0.12 itsdangerous-0.24
