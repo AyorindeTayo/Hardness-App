@@ -1,7 +1,7 @@
 
 # Installing flask 
 - cd /path/to/project-directory      # Choose your project directory
-- virtualenv -p python3 venv  # For Python 3, or
+- virtualenv -p python3 venv  # For Python 3
 
 
 - source venv/bin/activate    # Activate the virual environment
