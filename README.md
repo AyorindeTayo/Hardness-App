@@ -4,13 +4,24 @@
 ```
 pipenv install
 ```
-- virtualenv -p python3 venv  # For Python 3
+Then, activate this app's virtualenv: virtualenv -p python3 venv  # For Python 3
+```
+virtualenv -p python3 venv
+```
+- Install your requirements
+```
+(venv)$ pip install -r requirements.txt
+```
 
-
-- source venv/bin/activate    # Activate the virual environment
-(venv)$ pip install flask     # Install flask using 'pip' which is symlinked to pip2 or pip3 (no sudo needed)
-
-
+- Running the Server
+  Type on your terminal, run the server using this one simple command:
+```
+(venv)$ flask run
+```
+The local deployed web app can now be accessed using
+```
+http://localhost:5000
+```
 # Hardness-App
 Web app for Vickers Hardness Prediction for welded stainless steel. 
 
