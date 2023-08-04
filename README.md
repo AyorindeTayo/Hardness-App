@@ -18,13 +18,22 @@ virtualenv -p python3 venv
 ```
 (venv)$ flask run
 ```
-The local deployed web app can now be accessed using
+The locally deployed web app can now be accessed using
 ```
 http://localhost:5000
 ```
-# Hardness-App
-Web app for Vickers Hardness Prediction for welded stainless steel.
+
 # Deployment of the app on Python 
 Head over to https://www.pythonanywhere.com/ and follow the below steps.
+- Register and create a beginner account with pythonanywhere
+- Dashboard will open after registraion. Click on Web to view web apps page.
+- Create a web app
+- Select Flask Framework
+- Select Python Version
+- Enter path for flask file
+- Check the default Flask application live on the link [provided](https://ayorinde.pythonanywhere.com/) 
+# Hardness-App
+Web app for Vickers Hardness Prediction for welded stainless steel.
+
 ![Imgur](https://imgur.com/xwhL9V9.png)
 
