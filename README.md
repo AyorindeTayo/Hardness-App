@@ -23,7 +23,7 @@ The locally deployed web app can now be accessed using
 http://localhost:5000
 ```
 
-# Deployment of the app on Python 
+# Deployment of the app on pythonanywhere Cloud 
 Head over to the link [pythonanywhere](https://www.pythonanywhere.com/) and follow the below steps.
 - Register and create a beginner account with pythonanywhere
 - Dashboard will open after registration. Click on Web to view the web apps page.
