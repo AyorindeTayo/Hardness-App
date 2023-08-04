@@ -1,6 +1,9 @@
 
 # Installing flask 
 - cd /path/to/project-directory      # Choose your project directory
+  '''
+  pipenv install
+  '''
 - virtualenv -p python3 venv  # For Python 3
 
 
