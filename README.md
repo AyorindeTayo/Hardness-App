@@ -23,7 +23,8 @@ The local deployed web app can now be accessed using
 http://localhost:5000
 ```
 # Hardness-App
-Web app for Vickers Hardness Prediction for welded stainless steel. 
-
+Web app for Vickers Hardness Prediction for welded stainless steel.
+# Deployment of the app on Python 
+Head over to https://www.pythonanywhere.com/ and follow the below steps.
 ![Imgur](https://imgur.com/xwhL9V9.png)
 
